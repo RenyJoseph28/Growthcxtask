@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+    
+
+.heading{
+    margin-top: 180px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+     
+  }
+
+  .head{
+   
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    line-height: 20px; 
+  }
+  .p1{
+    margin-top: 60px;
+    line-height: 11px;
+    font-family: 'Epilogue', sans-serif;
+    color: gray;
+    font-size: 18px;
+    
+  }
+  .p2{
+    line-height: 11px;
+    font-family: 'Epilogue', sans-serif;
+    color: gray;
+    font-size: 18px;
+  }
+  .p3{
+    line-height: 11px;
+    font-family: 'Epilogue', sans-serif;
+    color: gray;
+    font-size: 18px;
+  }
+  button{
+    margin-top: 40px;
+  }
+  .img1{
+    margin-top: 230px;
+    margin-right: 28px;
+
+  }
+  .img2{
+    margin-top: 230px;
+    margin-right: 28px;
+   
+  }
+  .img3{
+    margin-top: 230px;
+    margin-right: 28px;
+    
+  }
+  .img4{
+    margin-top: 230px;
+    margin-right: 28px;
+   
+  }
+  
+  @media screen and (min-width:992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    
+  }
+  .dropdown .dropdown-menu {
+    display: none;
+  }
+  .dropdown:hover .dropdown-toggle::after{
+    border-top: 0;
+    border-bottom: .3em solid;
+  }
+}
+@media screen and (max-width:375px) {
+  
+  
+}
+    
+  
+
+
+
+
+  
