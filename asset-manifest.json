@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Growthcxtask/static/css/main.a503e68e.css",
+    "main.js": "/Growthcxtask/static/js/main.6bcc427d.js",
+    "static/js/787.b3e20903.chunk.js": "/Growthcxtask/static/js/787.b3e20903.chunk.js",
+    "index.html": "/Growthcxtask/index.html",
+    "main.a503e68e.css.map": "/Growthcxtask/static/css/main.a503e68e.css.map",
+    "main.6bcc427d.js.map": "/Growthcxtask/static/js/main.6bcc427d.js.map",
+    "787.b3e20903.chunk.js.map": "/Growthcxtask/static/js/787.b3e20903.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a503e68e.css",
+    "static/js/main.6bcc427d.js"
+  ]
+}
