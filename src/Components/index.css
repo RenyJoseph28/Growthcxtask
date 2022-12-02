@@ -6,24 +6,25 @@
     margin-top: 180px;
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
+    font-size: 60px;
      
   }
 
   .head{
-   
+   font-size: 60px;
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
     line-height: 20px; 
   }
-  .p1{
+  p{
     margin-top: 60px;
-    line-height: 11px;
+    line-height: 22px;
     font-family: 'Epilogue', sans-serif;
     color: gray;
-    font-size: 18px;
+    font-size: 16px;
     
   }
-  .p2{
+  /* .p2{
     line-height: 11px;
     font-family: 'Epilogue', sans-serif;
     color: gray;
@@ -34,7 +35,7 @@
     font-family: 'Epilogue', sans-serif;
     color: gray;
     font-size: 18px;
-  }
+  }  */
   button{
     margin-top: 40px;
   }
@@ -58,6 +59,10 @@
     margin-right: 28px;
    
   }
+  .btn:hover{
+    background-color:white;
+    color: black;
+  }
   
   @media screen and (min-width:992px) {
   .dropdown:hover .dropdown-menu {
@@ -72,8 +77,79 @@
     border-bottom: .3em solid;
   }
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width:378px) {
+  .b1{
+    margin-left: 100px;
+  }
   
+  h1{
+    
+    display: inline-block;
+    
+    
+    
+    }
+    
+ 
+  .heading{
+    margin-right: 10px;
+    font-size: 35px;
+
+  }
+  .head{
+    font-size: 35px;
+  }
+  .img1{
+    margin-top: 230px;
+    margin-right: 5px;
+    width: 80px;
+    height: 30px;
+
+  }
+  .img2{
+    margin-top: 230px;
+    margin-right: 5px;
+   
+  }
+  .img3{
+    margin-top: 230px;
+    margin-right: 5px;
+    
+  }
+  .img4{
+    margin-top: 230px;
+    margin-right: 5px;
+   
+  }
+  .imgss{
+    margin-top: -200px;
+  }
+   p{
+    
+    display: inline;
+     } 
+  /* .p2{
+    line-height: 16px;
+    font-family: 'Epilogue', sans-serif;
+    color: gray;
+    font-size: 18px;
+    
+  }
+  .p3{
+    line-height: 16px;
+    font-family: 'Epilogue', sans-serif;
+    color: gray;
+    font-size: 18px;
+   
+  } */ 
+  /* .para{
+    text-align: center;
+    display: inline;
+  } */
+  .btn:hover{
+    background-color:white;
+    color: black;
+  }
   
 }
     

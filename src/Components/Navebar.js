@@ -11,7 +11,7 @@ const Navebar = () => {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0">
       <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Features
@@ -35,17 +35,19 @@ const Navebar = () => {
             <li><a class="dropdown-item" href="#">Blog</a></li>
           </ul>
         </li>
-     
-        <a class="nav-link" href="#">Careers</a>
+         <a class="nav-link" href="#">Careers</a>
         <a class="nav-link" href="#">About</a>
         
-        <div class="navbar-nav justify-content-end" >
-        <button className='btn btn-light'>Login</button>
-        <button className='btn btn-light'>Register</button>
-      </div>
+      
         
-      </div>
-      </div>
+      </div> 
+      <form class="d-flex justify-content-end">
+        <button className='btn btn-light'>Login</button>
+        
+        <button class="btn btn-outline-dark" type="submit">Register</button>
+      </form>
+
+</div>
      
     
   </div>
